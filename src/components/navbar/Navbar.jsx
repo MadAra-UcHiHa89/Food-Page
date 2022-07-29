@@ -29,7 +29,7 @@ const Navbar = (props) => {
             }}
           />
         </div>
-        <h1 className="text-2xl sm:text-2xl lg:text-3xl px-2">
+        <h1 className="text-xl sm:text-2xl lg:text-3xl px-2 whitespace-nowrap ">
           Best <span className="font-bold">Eats</span>
         </h1>
         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
@@ -38,7 +38,7 @@ const Navbar = (props) => {
         </div>
       </div>
       {/* Search Input */}
-      <div className="bg-gray-200 rounded-full flex items-center px-2 w-[300px] sm:w-[500px] lg:w-[600px]">
+      <div className="bg-gray-200 rounded-full flex items-center px-2 w-[220px] sm:w-[500px] lg:w-[600px]">
         <AiOutlineSearch size={25} />
         <input
           type="text"
