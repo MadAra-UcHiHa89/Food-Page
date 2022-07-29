@@ -4,6 +4,7 @@ import "./index.css";
 import HeadlineCard from "./components/HeadlineCard.jsx";
 import Food from "./components/Food";
 import Category from "./components/Category.jsx";
+import Login from "./components/Login";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <HeadlineCard />
       <Food />
       <Category />
+      <Login />
     </div>
   );
 }
